@@ -21,7 +21,7 @@ def read_text_file(file_path):
 
 def correct_common_errors(text):
     common_mistakes = {
-        "İtügen": "İTÜ Gemi"
+        "teh": "the"
     }
     
     words = text.split()
