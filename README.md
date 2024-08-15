@@ -21,7 +21,7 @@ This project is designed to transcribe audio files into text, correct the text f
 
 1. **Install Dependencies**:
    ```bash
-   pip install openai python-dotenv nltk spellchecker
+   pip install -r requirements.txt
 
 
 2. **Create a .env File**:
