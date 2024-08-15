@@ -12,7 +12,7 @@ This project is designed to transcribe audio files into text, correct the text f
 
 - Python 3.x
 - `openai` Python library
-- `python-dotenv` Python library
+- `python-dotenv` Python library 
 - `nltk` Python library
 - `spellchecker` Python library
 - OpenAI API key
