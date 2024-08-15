@@ -53,8 +53,8 @@ def write_text_file(file_path, text):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(text)
 
-input_file_path = 'results/haber_transcription.txt'
-output_file_path = 'correct_results/corrected_haber_transcription.txt'
+input_file_path = 'results/sia_transcription.txt'
+output_file_path = 'correct_results/corrected_sia_transcription.txt'
 
 transcription_text = read_text_file(input_file_path)
 transcription_text = correct_common_errors(transcription_text)

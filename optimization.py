@@ -15,14 +15,14 @@ def bandpass_filter(data, lowcut, highcut, fs, order=5):
     y = lfilter(b, a, data)
     return y
 
-audio_file = 'audios/haber.mp3'
+audio_file = 'audios/sia.mp3'
 y, sr = librosa.load(audio_file, sr=None)
 
 lowcut = 300.0  # Düşük frekans sınırı
 highcut = 3000.0  # Yüksek frekans sınırı
 filtered_audio = bandpass_filter(y, lowcut, highcut, sr, order=6)
 
-output_file = 'optimization/filtered_haber.mp3'
+output_file = 'optimization/filtered_sia.mp3'
 sf.write(output_file, filtered_audio, sr)
 
 
