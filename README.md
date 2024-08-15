@@ -40,13 +40,13 @@ This project is designed to transcribe audio files into text, correct the text f
 
 ## Usage
 1. **Transcribe the Audio File:**
-Use the audios/haber.mp3 file to transcribe the audio into text. The resulting text will be saved to results/haber_transcription.txt.
+Use the audios/sia.mp3 file to transcribe the audio into text. The resulting text will be saved to results/sia_transcription.txt.
 
 2. **Correct the Text:**
-Add your text correction rules to the correct_common_errors function. The corrected text will be saved to correct_results/corrected_haber_transcription.txt.
+Add your text correction rules to the correct_common_errors function. The corrected text will be saved to correct_results/corrected_sia_transcription.txt.
 
 3. **Summarize the Text:**
-Use the OpenAI API to summarize the corrected text. The summary will be saved to summaries/haber_summary.txt.
+Use the OpenAI API to summarize the corrected text. The summary will be saved to summaries/sia_summary.txt.
 
 ## File Structure
     audios/ - Directory for audio files
